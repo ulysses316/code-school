@@ -1,0 +1,24 @@
+.parallax{
+  /* The image used */
+  background-image: url("../../../Documentos/gdgunampage/img/logo-futura-gdg-unam@3x.png");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+    height: 200vh;
+}
+
+.opacidad{
+    background-color: rgb(255,192,203);
+}
+.opacidad:hover{
+    background-color: rgba(0,0,0, 0.3);
+}
